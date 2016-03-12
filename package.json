@@ -1,0 +1,16 @@
+{
+  "name": "framework-qs",
+  "description": "A light framework aimed for use to Front-End Developers",
+  "author": "",
+  "contributors": [
+    {
+      "name": "JB Pham",
+      "email": "jbpham@kernix.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mjml": "^1.0.0"
+  }
+}
