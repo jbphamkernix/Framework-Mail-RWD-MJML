@@ -1,16 +1,15 @@
 {
-  "name": "framework-qs",
-  "description": "A light framework aimed for use to Front-End Developers",
+  "name": "Framework-MJML",
+  "description": "",
   "author": "",
-  "contributors": [
-    {
-      "name": "JB Pham",
-      "email": "jbpham@kernix.com"
-    }
-  ],
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-mjml": "^1.0.0"
+    "gulp": "^3.9.1",
+    "gulp-mjml": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && gulp",
+    "watch": "gulp watch"
   }
 }
