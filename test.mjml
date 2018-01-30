@@ -1,11 +1,191 @@
 <mjml>
+  <mj-head>
+    <mj-title>Project Name</mj-title>
+    <mj-style>
+      @media all and (max-width: 767px) {
+        .mj-container {padding:0 10px !important; }
+        .header-wrap > table > tbody > tr > td { padding-bottom: 25px !important; padding-top: 25px !important; }
+        .logo >td > table >tbody > tr > td { width:150px !important;}
+        .intro-wrap div  {font-size: 14px !important; line-height: 20px !important; }
+        .header-img > table > tbody > tr > td{ padding-bottom: 20px !important; padding-top: 20px !important; padding-bottom: 0!important;}
+        .header-img-text > td { padding-left: 10px !important; padding-right: 10px !important; }
+        .header-img-text div{ font-size: 20px !important; line-height: 25px !important; height: 100% !important; text-align: center !important; }
+        .content-title  div{ font-size: 20px !important; line-height: 25px !important;  }
+        .content-title > td {padding-left: 20px !important; padding-right: 20px !important; }
+        .content-text > td {padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 5px !important;}
+        .content-text.content-text-info > td { padding-bottom: 0 !important;}
+        .content-text div { font-size: 14px !important; line-height: 19px !important; }
+        .content-wrap > table > tbody > tr > td { padding-bottom: 20px !important; padding-top: 30px !important; }
+
+        .divider > table > tbody > tr > td{ padding-left: 0 !important; padding-right: 0 !important; }
+        .footer-content > table > tbody > tr > td{ padding-left: 20px !important; padding-right: 20px !important; padding-top: 30px !important; }
+        .footer-law > table > tbody > tr > td{ padding-left: 0 !important; padding-right: 0 !important; }
+        .footer-socials > table > tbody > tr > td  { padding-left: 15% !important; padding-right: 15% !important; }
+        .logo-wrap > table > tbody > tr > td{ padding-left: 20px !important; padding-right: 20px !important; }
+        .img-mobile > td  > table > tbody > tr > td { width:100% !important;}
+        .img-mobile img { height:auto !important; }
+      }
+    </mj-style>
+  </mj-head>
+
   <mj-body>
-    <mj-container>
-      <mj-section>
-        <mj-column>
-          <mj-text>Hi sexy!</mj-text>
+    <mj-container width="800" background-color="#eee">
+      <!-- Header -->
+      <mj-section background-color="#eee" padding-bottom="40" padding-top="40" css-class="header-wrap">
+        <mj-column width="100%" vertical-align="top">
+          <mj-image href="https://www.kernix.com/" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgODAgOTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDgwIDk2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTAsMTZ2NTZsMTYtMTZWMEwwLDE2eiBNODAsMTZINTZMMTYsNTZsNDAsNDBoMjRMNDAsNTZMODAsMTZ6Ii8+CjwvZz4KPC9zdmc+Cg==" alt="Net declaration" align="center" border="none" width="70" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" css-class="logo">
+          </mj-image>
         </mj-column>
       </mj-section>
+
+      <!-- Company Title -->
+      <mj-section background-color="#002e60" padding-bottom="20" padding-top="20" css-class="intro-wrap">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="center" color="#fff" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="16" padding-left="15" padding-right="15" padding-bottom="0" padding-top="0">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Company Header Img -->
+      <!-- <mj-section background-color="#f2f4f7" css-class="header-img" background-url="/doc/newsletter/bg-header.jpg" background-repeat="not-reapet" background-size="cover" padding-bottom="27" padding-top="50">
+        <mj-column width="50%" vertical-align="middle">
+          <mj-text align="left" height="140" color="#002e60" font-weight="bold" font-style="italic" line-height="38px" font-family="Georgia, Arial, sans-serif" font-size="28" padding-left="40" padding-right="40" padding-bottom="0" padding-top="0" css-class="header-img-text">
+            Newsletter <br> juillet - août 2017
+          </mj-text>
+        </mj-column>
+        <mj-column width="50%" vertical-align="top"  >
+          <mj-image width="100%" css-class="img-mobile" height="0" padding-bottom="0" padding-top="0"  padding-left="0" padding-right="0"  src="/doc/newsletter/bg-header-alone.jpg" />
+        </mj-column>
+      </mj-section> -->
+
+      <!-- Content Text -->
+      <mj-section background-color="#ffffff" padding-bottom="40" padding-top="40" css-class="content-wrap">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="left" color="#5f7092" font-weight="bold" font-style="italic" line-height="34px" font-family="Georgia, Arial, sans-serif" font-size="28" padding-left="85" padding-right="85"  padding-bottom="20" padding-top="0" css-class="content-title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </mj-text>
+          <mj-text align="left" color="#002e60" font-weight="normal" line-height="26px" font-family=" Arial, sans-serif" font-size="18" padding-left="85" padding-right="85" padding-bottom="0" padding-top="0" css-class="content-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0" padding-left="60" padding-right="60" css-class="divider" >
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#dadee6" />
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Content Text -->
+      <mj-section background-color="#ffffff" padding-bottom="40" padding-top="40" css-class="content-wrap">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="left" color="#5f7092" font-weight="bold" font-style="italic" line-height="34px" font-family="Georgia, Arial, sans-serif" font-size="28" padding-left="85" padding-right="85"  padding-bottom="20" padding-top="0" css-class="content-title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </mj-text>
+          <mj-text align="left" color="#002e60" font-weight="normal" line-height="26px" font-family=" Arial, sans-serif" font-size="18" padding-left="85" padding-right="85" padding-bottom="20" padding-top="0" css-class="content-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </mj-text>
+          <mj-button background-color="#002e60" color="#fff" font-size="14" align="center" height="30" padding-left="30" padding-right="30" padding-bottom="15" padding-top="15" vertical-align="middle" border="none" border-radius="4px" href="http://www.gpomag.fr/web/tendances/teledeclaration-outil-digital-simplification-fiscale" font-family="Arial, Helvetica, sans-serif">
+            Découvrir
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0" padding-left="60" padding-right="60" css-class="divider" >
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#dadee6" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Partners -->
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="50" css-class="content-wrap">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="center" color="#5f7092" font-weight="bold" font-style="italic" line-height="34px" font-family="Georgia, Arial, sans-serif" font-size="28" padding-left="20" padding-right="20" padding-bottom="20" padding-top="0" css-class="content-title">
+            Nos partenaires
+          </mj-text>
+          <mj-text align="center" color="#808080" font-weight="normal" line-height="25px" font-family=" Arial, sans-serif" font-size="16" padding-left="85" padding-right="85" padding-bottom="30" padding-top="0" css-class="content-text content-text-info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0" padding-left="20%" padding-right="20%" css-class="logo-wrap">
+        <mj-group>
+          <mj-column width="50%" vertical-align="middle">
+            <mj-image src="/doc/newsletter/.png" alt="Logo" align="center" border="none" width="130" padding-left="15" padding-right="15" padding-bottom="30" padding-top="0">
+            </mj-image>
+          </mj-column>
+          <mj-column width="50%" vertical-align="middle">
+            <mj-image src="/doc/newsletter/.png" alt="Logo" align="center" border="none" width="130" padding-left="15" padding-right="15" padding-bottom="30" padding-top="0">
+            </mj-image>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-bottom="25" padding-top="0" padding-left="20%" padding-right="20%" css-class="logo-wrap">
+        <mj-group>
+          <mj-column width="50%" vertical-align="middle">
+            <mj-image src="/doc/newsletter/.png" alt="Logo" align="center" border="none" width="130" padding-left="15" padding-right="15" padding-bottom="30" padding-top="0">
+            </mj-image>
+          </mj-column>
+          <mj-column width="50%" vertical-align="middle">
+            <mj-image src="/doc/newsletter/.png" alt="Logo" align="center" border="none" width="130" padding-left="15" padding-right="15" padding-bottom="30" padding-top="0">
+            </mj-image>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+      <!-- Footer -->
+      <mj-section background-color="#eee" padding-bottom="0" padding-top="40" padding-left="85" padding-right="85" css-class="footer-content">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="center" color="#002e60" font-family="Arial, Helvetica, sans-serif" line-height="18px" font-size="12" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br>Pour vous désinscrire, cliquer <a href="/fr/push/remove?((sig))" style="color:#002e60 !important">ici</a>.
+          </mj-text>
+          <mj-text align="center" color="#002e60" font-family="Arial, Helvetica, sans-serif" line-height="18px" font-size="12" padding-left="0" padding-right="0" padding-bottom="20" padding-top="20">
+            Suivez-nous également sur :
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Social Network -->
+      <mj-section background-color="#eee" padding-bottom="0" padding-top="0" padding-left="35%" padding-right="35%" css-class="footer-socials">
+        <mj-group>
+          <!-- <mj-column width="25%" vertical-align="middle">
+            <mj-image href="https://www.google.fr/" src="/doc/newsletter/facebook.png" alt="Facebook" align="center" border="none" width="20" padding-left="0" padding-right="0" padding-bottom="25" padding-top="0">
+            </mj-image>
+          </mj-column>
+          <mj-column width="25%" vertical-align="middle">
+            <mj-image href="https://www.google.fr/" src="/doc/newsletter/twitter.png" alt="Twitter" align="center" border="none" width="20" padding-left="0" padding-right="0" padding-bottom="25" padding-top="0">
+            </mj-image>
+          </mj-column>
+          <mj-column width="25%" vertical-align="middle">
+            <mj-image href="https://www.google.fr/" src="/doc/newsletter/google.png" alt="google" align="center" border="none" width="25" padding-left="0" padding-right="0" padding-bottom="25" padding-top="0">
+            </mj-image>
+          </mj-column> -->
+          <mj-column width="100%" vertical-align="middle">
+            <mj-image href="https://www.google.fr/" src="" alt="youtube" align="center" border="none" width="20" padding-left="0" padding-right="0" padding-bottom="25" padding-top="0">
+            </mj-image>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Copyright -->
+      <mj-section background-color="#eee" padding-bottom="40" padding-top="0" padding-left="85" padding-right="85" css-class="footer-law">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="center" color="#002e60" font-family="Arial, Helvetica, sans-serif" line-height="18px" font-size="12" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
+            © 2018 Kernix. Tous droits réservés.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
     </mj-container>
   </mj-body>
 </mjml>
