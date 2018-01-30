@@ -1,15 +1,18 @@
 {
   "name": "Framework-MJML",
   "description": "",
-  "author": "",
+  "author": "JB PHAM <jbpham@kernix.com>",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-mjml": "^2.2.0"
+    "gulp-mjml": "^2.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && gulp",
+    "start": "yarn install && gulp",
     "watch": "gulp watch"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jbphamkernix/Framework-Mail-RWD-MJML.git"
 }
