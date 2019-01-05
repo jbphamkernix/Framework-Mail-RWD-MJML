@@ -1,16 +1,16 @@
-var gulp = require('gulp');
-var mjml = require('gulp-mjml');
+var gulp = require('gulp')
+var mjml = require('gulp-mjml')
 
 gulp.task('mjml', function () {
-  gulp.src('./test.mjml')
+  return gulp.src('./test.mjml')
     .pipe(mjml())
     .pipe(gulp.dest('./html'))
-});
+})
 
 // Watch All
 gulp.task('watch', function() {
-  gulp.watch('./test.mjml', ['mjml']);
+    gulp.watch('./test.mjml', gulp.series('mjml'));
 });
 
 // Default
-gulp.task('default', ['mjml', 'watch']);
+gulp.task('default', gulp.parallel('mjml', 'watch'));
