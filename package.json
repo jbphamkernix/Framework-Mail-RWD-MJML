@@ -3,7 +3,7 @@
   "description": "",
   "author": "JB PHAM <jbpham@kernix.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^4.0.0",
     "gulp-mjml": "^3.0.0"
   },
