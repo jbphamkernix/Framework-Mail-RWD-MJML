@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "yarn install && gulp",
+    "start": "pnpm install && gulp",
     "watch": "gulp watch"
   },
   "version": "1.0.0",
