@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Mail</mj-title>
+    <mj-title>Formulaire de contact</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
     <mj-style>
       @media all and (max-width: 767px) {
@@ -16,6 +16,7 @@
         .content-wrap > table > tbody > tr > td { padding-bottom: 0 !important; padding-top: 32px !important; }
         .content-wrap.content-text-info > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 32px !important;}
         .divider > table > tbody > tr > td{ padding-left: 8px !important; padding-right: 8px !important; padding-bottom: 15px !important; padding-top: 15px !important;}
+        p { margin:0 !important; }
       }
     </mj-style>
   </mj-head>
@@ -66,27 +67,13 @@
         </mj-column>
       </mj-section>
 
-      <!-- Footer -->
-      <!-- <mj-section background-color="#F3F3F3" padding-bottom="0" padding-top="40px" padding-left="50px" padding-right="50px" css-class="footer-content">
-        <mj-column width="100%" vertical-align="top">
-          <mj-text align="center" color="#000" font-family="Arial, Helvetica, sans-serif" line-height="18px" font-size="12px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            <br>Pour vous désinscrire, cliquer <a href="/fr/push/remove?((sig))" style="color:#000 !important">ici</a>.
-          </mj-text>
-          <mj-text align="center" color="#000" font-family="Arial, Helvetica, sans-serif" line-height="18px" font-size="12px" padding-left="0" padding-right="0" padding-bottom="20px" padding-top="20px">
-            Suivez-nous également sur :
+      <mj-section background-color="#F3F3F3" padding-bottom="0" padding-top="50px" css-class="footer-wrap" >
+        <mj-column width="100%" vertical-align="top" >
+           <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+            &nbsp;
           </mj-text>
         </mj-column>
       </mj-section>
-
-      <!-- Copyright -->
-      <!-- <mj-section background-color="#F3F3F3" padding-bottom="40px" padding-top="0" padding-left="50px" padding-right="50px" css-class="footer-law">
-        <mj-column width="100%" vertical-align="top">
-          <mj-text align="center" color="#000" font-family="Arial, Helvetica, sans-serif" line-height="18px" font-size="12px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">
-            © 2018 Kernix. Tous droits réservés.
-          </mj-text>
-        </mj-column>
-      </mj-section> -->
 
   </mj-body>
 </mjml>
