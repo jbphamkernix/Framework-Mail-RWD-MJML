@@ -4,7 +4,7 @@
   "author": "JB PHAM <jbpham@kernix.com>",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-mjml": "^4.0.2"
   },
   "scripts": {
