@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Mailing fidélité - le Magasin du BTP</mj-title>
+    <mj-title>Bienvenue - le Magasin du BTP</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
     <mj-style>
       ul { padding-left: 15px; }
@@ -24,7 +24,7 @@
       }
     </mj-style>
   </mj-head>
-  
+
 
   <mj-body background-color="#F3F3F3" width="660px">
       <!-- Header -->
@@ -39,37 +39,50 @@
       <mj-section background-color="#ffffff" padding-bottom="25px" padding-top="40px" css-class="content-wrap">
         <mj-column width="100%" vertical-align="top">
           <mj-text align="center" color="#000" font-weight="600" font-family="Roboto, Arial, sans-serif" font-size="20px" padding-left="50px" padding-right="50px"  padding-bottom="20px" padding-top="0" css-class="content-title">
-           Merci de votre fidélité
+            Bienvenue
           </mj-text>
           <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <p>Lise,</p>
-            <p>Grâce à votre achat, vous avez cagnotté [X points] de fidélité, que vous pouvez utiliser dès maintenant. Vous pouvez consulter votre solde de points de fidélité à tout moment en vous connectant à votre compte client sur notre site web.</p>
+            <p>Bonjour Lise Buret, </p>
+            <p>Bienvenue dans la team Lemagasindubtp.com ! 🎉 Nous sommes ravis de vous accueillir parmi nous et de vous accompagner dans tous vos projets.</p>
+            <p>Vos avantages avec LeMAGASINduBTP.com, c'est :</p> 
+            <ul>
+              <li><strong>La livraison sans frais :</strong> Profitez de nos 30 points relais répartis sur le quart nord-ouest de la France pour une livraison rapide et gratuite de vos commandes.</li>
+              <li><strong>Des offres spéciales dans notre catégorie destockage :</strong> Explorez notre sélection de produits en réduction dans notre catégorie destockage et faites des économies sur vos achats de matériel de BTP.</li>
+              <li><strong>Vos demandes de devis en ligne :</strong> Vous pouvez désormais effectuer vos demandes de devis directement sur notre site en ligne, pour une réponse rapide et adaptée à vos besoins.</li>
+              <li><strong>La livraison en 24/48h :</strong> L'ensemble de nos produits en stock sont livrés en 24/48h sur votre site ou directement sur votre chantier </li>
+              <li><strong>Facilité de paiement :</strong> Nous proposons plusieurs solutions de paiements tels que par carte, par virement, avec Paypal ou encore le paiement à 2 ou 3 fois sans frais.</li>
+            </ul>   
           </mj-text>
           <mj-button href="https://www.lemagasindubtp.com/" font-family="Roboto, Arial, sans-serif" background-color="#fff" font-size="16px"  color="#BDBDBD" font-weight="600" border="1px solid #00add5" border-radius="4px">
-            Voir ma cagnotte
+            Visiter notre site
           </mj-button>
           <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <p>Pour rappel notre programme de fidélité c'est : </p>
+           <p>LeMAGASINduBTP.com, en quelques mots, c'est : </p> 
+           <ul>
+            <li><strong>Une entreprise familiale :</strong> Basée à Tours, notre jeune entreprise est composée d'une équipe de 5 personnes dévouées à vous fournir un service 1/2 about:blank de qualité et des conseils avisés. Découvrez-en plus sur notre histoire</li>
+            <li><strong>Une vrai démarche éco-responsable :</strong> Nous œuvrons chaque jour pour réduire notre empreinte écologique, en réutilisant les cartons et les palettes pour vos colis, en triant et compostant nos déchets, et bien plus encore ! </li>
+            <li><strong>Une grande diversité de produits :</strong> Du petit matériel de bricolage aux machines pour le BTP, nous avons une philosophie : la diversité. Une des principales raisons pour lesquelles leMAGASINduBTP.com a vu le jour </li>
+            </ul>           
           </mj-text>
-           <mj-text align="center" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text" >
-           <div style="text-align: center; border:2px solid #00add5">
-            <p><b>1€ dépensé = 1 point</b></p>
-            <p><i>Chaque euro dépensé sur notre site vous rapporte 1 point de fidélité.</i></p>
-            <p><b>10 points cumulés = 1€</b></p>
-            <p><i>Pour 10 points cumulés, vous obtenez une remise de 1€ que vous pouvez utiliser dès votre prochain achat.</i></p>
-            </div>
-          </mj-text>
-          <mj-button href="https://www.lemagasindubtp.com/" font-family="Roboto, Arial, sans-serif" background-color="#fff" font-size="16px"  color="#BDBDBD" font-weight="600" border="1px solid #00add5" border-radius="4px">
-            Consulter le programme de fidélité
+          <mj-button href="https://www.lemagasindubtp.com/le-magasin-du-btp" font-family="Roboto, Arial, sans-serif" background-color="#fff" font-size="16px"  color="#BDBDBD" font-weight="600" border="1px solid #00add5" border-radius="4px">
+            Découvrez notre histoire
           </mj-button>
-          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="15px" css-class="content-text">
-            <p>N'hésitez pas, si vous avez des questions ou besoin d'assistance, contactez Mathilde au <span style="color:#36687E !important;">0 809 542 004</span> ou par email à <span style="color:#36687E !important;">contact@lemagasindubtp.com</span>.</p>
-            <p> Merci encore pour votre confiance et votre soutien continu. </p>
+        </mj-column>
+      </mj-section>
+
+      <!-- Team -->
+      <mj-section background-color="#ffffff" padding-bottom="30px" padding-top="0" css-class="contact-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+        <mj-column width="100%" vertical-align="middle" padding="0" >
+            <mj-image width="560px" src="team.png" padding="0" />
+        </mj-column>
+        <mj-column width="100%" vertical-align="middle"  padding="0">
+          <mj-text align="left" color="#000" font-weight="400" line-height="21px" font-family="Roboto, Arial, sans-serif" font-size="15px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0">
+            <p>N'hésitez pas à explorer notre site et à découvrir l'ensemble de nos produits et services. Si vous avez des questions ou besoin d'assistance, contactez Mathilde au <span style="color:#36687E !important;">0 809 542 004</span> ou par email à <span style="color:#36687E !important;">contact@lemagasindubtp.com</span>.</p>
             <p> A bientôt, </p>
           </mj-text>
         </mj-column>
       </mj-section>
-
+      
       <!-- Footer -->
       <mj-section background-color="#F3F3F3" padding-bottom="0" padding-top="40px" padding-left="31%"  padding-right="31%" css-class="footer-logo-wrap" >
         <mj-column width="33%" vertical-align="top" padding="0" >

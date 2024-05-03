@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Mailing fidélité - le Magasin du BTP</mj-title>
+    <mj-title>Confirmation de commande - le Magasin du BTP</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
     <mj-style>
       ul { padding-left: 15px; }
@@ -39,37 +39,106 @@
       <mj-section background-color="#ffffff" padding-bottom="25px" padding-top="40px" css-class="content-wrap">
         <mj-column width="100%" vertical-align="top">
           <mj-text align="center" color="#000" font-weight="600" font-family="Roboto, Arial, sans-serif" font-size="20px" padding-left="50px" padding-right="50px"  padding-bottom="20px" padding-top="0" css-class="content-title">
-           Merci de votre fidélité
+            Merci pour votre commande
           </mj-text>
           <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <p>Lise,</p>
-            <p>Grâce à votre achat, vous avez cagnotté [X points] de fidélité, que vous pouvez utiliser dès maintenant. Vous pouvez consulter votre solde de points de fidélité à tout moment en vous connectant à votre compte client sur notre site web.</p>
+            <p>Bonjour Fabien,</p>
+            <p>Merci pour votre commande chez LeMAGASINduBTP.com. Nous sommes ravis de vous informer que votre commande a bien été validée. Votre colis sera préparé avec le plus grand soin et expédié dans les plus brefs délais par Lucas, pour que vous puissiez profiter au plus vite de votre nouvelle commande !</p>
           </mj-text>
           <mj-button href="https://www.lemagasindubtp.com/" font-family="Roboto, Arial, sans-serif" background-color="#fff" font-size="16px"  color="#BDBDBD" font-weight="600" border="1px solid #00add5" border-radius="4px">
-            Voir ma cagnotte
+            Consulter le statut de la commande
           </mj-button>
+          <mj-text align="left" color="#000" font-weight="500" font-family="Roboto, Arial, sans-serif" font-size="18px" padding-left="30px" padding-right="30px"  padding-bottom="5px" padding-top="30px" css-class="content-title">
+            Détails de la commande
+          </mj-text>
+          <mj-table>
+            <tr>
+              <td style="padding: 10px; border-right: 1px solid #E7E7E7; vertical-align: top; width:50%; font-size:16px">
+                <strong>Numéro de commande :</strong><br>
+                WD0000589 <br><br>
+
+                <strong>Date de commande :</strong><br>
+                29 févr. 2024 à 10:58:18<br><br>
+
+                <strong>Mode de livraison :</strong><br>
+                DPD - Livraison sur site<br><br>
+
+                <strong>Mode de paiement :</strong><br>
+                Virement bancaire. Dès réception de
+                celui-ci nous procéderons à votre
+                commande.
+              </td>
+              <td style="padding: 10px 15px; border: 0 solid #E7E7E7; vertical-align: top; font-size:16px">
+                <strong>Adresse de livraison :</strong><br>
+                Fabien Marazzi<br>
+                Chemin des mares<br>
+                SvB Paysagistes<br>
+                Saint Loup Hors 14400<br>
+                France<br>
+                T : 0687529388<br><br>
+                <strong>Adresse de facturation :</strong><br>
+                Fabien Marazzi<br>
+                Chemin des mares<br>
+                SvB Paysagistes<br>
+                Saint Loup Hors 14400<br>
+                France<br>
+                T : 0687529388
+              </td>
+            </tr>
+          </mj-table>
+          <mj-text align="left" color="#000" font-weight="500" font-family="Roboto, Arial, sans-serif" font-size="18px" padding-left="30px" padding-right="30px"  padding-bottom="5px" padding-top="30px" css-class="content-title">
+            Récapitulatif de la commande
+          </mj-text>
+          <mj-table>
+            <tr>
+              <td style="padding: 10px; border: 2px solid #E7E7E7; vertical-align: middle; width:120px;">
+                <img src="satisfait.webp" width="120"/>
+              </td>
+              <td style="padding: 10px; border: 2px solid #E7E7E7; vertical-align: middle; font-size:16px">
+                <h4 style="font-size:18px!important; margin-top: 0 !important;">Ventouse vibrante VV 130 mm </h4> 
+                <strong>240.28€ TTC</strong> <br>
+              </td>
+            </tr>
+          </mj-table>
           <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <p>Pour rappel notre programme de fidélité c'est : </p>
-          </mj-text>
-           <mj-text align="center" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text" >
-           <div style="text-align: center; border:2px solid #00add5">
-            <p><b>1€ dépensé = 1 point</b></p>
-            <p><i>Chaque euro dépensé sur notre site vous rapporte 1 point de fidélité.</i></p>
-            <p><b>10 points cumulés = 1€</b></p>
-            <p><i>Pour 10 points cumulés, vous obtenez une remise de 1€ que vous pouvez utiliser dès votre prochain achat.</i></p>
-            </div>
-          </mj-text>
-          <mj-button href="https://www.lemagasindubtp.com/" font-family="Roboto, Arial, sans-serif" background-color="#fff" font-size="16px"  color="#BDBDBD" font-weight="600" border="1px solid #00add5" border-radius="4px">
-            Consulter le programme de fidélité
-          </mj-button>
-          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="15px" css-class="content-text">
-            <p>N'hésitez pas, si vous avez des questions ou besoin d'assistance, contactez Mathilde au <span style="color:#36687E !important;">0 809 542 004</span> ou par email à <span style="color:#36687E !important;">contact@lemagasindubtp.com</span>.</p>
-            <p> Merci encore pour votre confiance et votre soutien continu. </p>
-            <p> A bientôt, </p>
+            <p style="text-align:center;">
+            Sous-total : <strong>19,55 €</strong><br> 
+            Frais de port : <strong>0,00 €</strong><br> 
+            TVA : <strong>3,91 € </strong><br>
+            <span style="color:#36687E !important;"><strong>Montant global : 23,46 €</strong></span>
+            <p>
           </mj-text>
         </mj-column>
       </mj-section>
 
+      <!-- Divider -->
+      <mj-section background-color="#ffffff" padding-bottom="15px" padding-top="0" padding-left="25px" padding-right="25px" css-class="divider" >
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#CCCCCC" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Content Text -->
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0" css-class="content-wrap">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+            <p>Nous sommes reconnaissants de votre confiance pour leMAGASINduBTP.com. Nous sommes impatients de vous servir à nouveau dans le futur !</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Contact -->
+      <mj-section background-color="#ffffff" padding-bottom="25px" padding-top="20px" css-class="contact-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+        <mj-column width="15%" vertical-align="middle" padding="0" >
+            <mj-image width="80px" src="mathilde.png" padding="0" />
+        </mj-column>
+        <mj-column width="85%" vertical-align="middle"  padding="0">
+          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="15px" padding-left="20px" padding-right="20px" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0" font-style="italic">
+            Si vous avez des questions, contactez Mathilde par téléphone au <span style="color:#36687E !important;">0 809 542 004</span> ou par email à <span style="color:#36687E !important;">contact@lemagasindubtp.com</span>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
       <!-- Footer -->
       <mj-section background-color="#F3F3F3" padding-bottom="0" padding-top="40px" padding-left="31%"  padding-right="31%" css-class="footer-logo-wrap" >
         <mj-column width="33%" vertical-align="top" padding="0" >
