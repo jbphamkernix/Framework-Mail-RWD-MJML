@@ -71,10 +71,12 @@
       </mj-section>
 
       <!-- Team -->
-      <mj-section background-color="#ffffff" padding-bottom="30px" padding-top="0" css-class="contact-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="0" css-class="contact-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
         <mj-column width="100%" vertical-align="middle" padding="0" >
             <mj-image width="560px" src="team.png" padding="0" />
         </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-bottom="30px" padding-top="0" css-class="contact-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
         <mj-column width="100%" vertical-align="middle"  padding="0">
           <mj-text align="left" color="#000" font-weight="400" line-height="21px" font-family="Roboto, Arial, sans-serif" font-size="15px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0">
             <p>N'hésitez pas à explorer notre site et à découvrir l'ensemble de nos produits et services. Si vous avez des questions ou besoin d'assistance, contactez Mathilde au <span style="color:#36687E !important;">0 809 542 004</span> ou par email à <span style="color:#36687E !important;">contact@lemagasindubtp.com</span>.</p>
@@ -82,7 +84,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      
+
       <!-- Footer -->
       <mj-section background-color="#F3F3F3" padding-bottom="0" padding-top="40px" padding-left="31%"  padding-right="31%" css-class="footer-logo-wrap" >
         <mj-column width="33%" vertical-align="top" padding="0" >
