@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Rappel de demande notification - le Magasin du BTP</mj-title>
+    <mj-title>Panier abandonné - le Magasin du BTP</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
     <mj-style>
       ul { padding-left: 15px; }
@@ -20,11 +20,7 @@
         .content-wrap.content-text-info > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 32px !important;}
         .divider > table > tbody > tr > td{ padding-left: 8px !important; padding-right: 8px !important; padding-bottom: 15px !important; padding-top: 15px !important;}
         .footer-logo-wrap .mj-column-per-33 { width: 33% !important; text-align: center !important; }
-        .footer-logo-wrap td  {  padding-left: 0 !important; padding-right: 0 !important; }
-        .contact-wrap div { text-align: center !important; }
-        .paiement-wrap div { text-align: center !important; }
-        .paiement-wrap > table > tbody > tr > td { padding-left: 0 !important; padding-right: 0 !important; }
-        .paiement-wrap span { padding: 0 !important; border: 0 !important; }
+        .footer-logo-wrap td { padding-left: 0 !important; padding-right: 0 !important; }
       }
     </mj-style>
   </mj-head>
@@ -43,16 +39,34 @@
       <mj-section background-color="#ffffff" padding-bottom="25px" padding-top="40px" css-class="content-wrap">
         <mj-column width="100%" vertical-align="top">
           <mj-text align="center" color="#000" font-weight="600" font-family="Roboto, Arial, sans-serif" font-size="20px" padding-left="50px" padding-right="50px"  padding-bottom="20px" padding-top="0" css-class="content-title">
-            Validez votre devis et avancez sur votre projet
+            Terminez votre achat et avancez sur votre projet
           </mj-text>
           <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <p>Bonjour Mathilde,</p>
-            <p>On a remarqué que votre demande de devis sur notre site LeMAGASINduBTP.com renferme des trésors qui ne demandent qu'à rejoindre votre boîte à outils pour réaliser des merveilles sur votre chantier.</p>
-            <p>Jetez un coup d'œil rapide à ce que vous avez laissé derrière vous :</p>
-           
+            <p>Bonjour Mathilde, </p>
+            <p>On a remarqué que votre panier sur notre site LeMAGASINduBTP.com renferme des trésors qui ne demandent qu'à rejoindre votre boîte à outils pour réaliser des merveilles sur votre chantier.</p>
+            <p>Jetez un coup d'œil rapide à ce que vous avez laissé derrière vous :</p> 
           </mj-text>
-          <mj-button href="https://www.google.fr/" font-family="Roboto, Arial, sans-serif" background-color="#fff" font-size="16px"  color="#BDBDBD" font-weight="600" border="1px solid #00add5" border-radius="4px">
-            CONSULTER MA DEMANDE DE DEVIS
+          <mj-table>
+            <tr>
+              <td style="padding: 10px; border: 2px solid #E7E7E7; vertical-align: middle; width:120px;">
+                <img src="satisfait.webp" width="120"/>
+              </td>
+              <td style="padding: 10px; border: 2px solid #E7E7E7; vertical-align: middle; font-size:16px">
+                <h4 style="font-size:18px!important; margin-top: 0 !important;">Ventouse vibrante VV 130 mm </h4> 
+                <strong>240.28€ TTC</strong>
+              </td>
+            </tr>
+          </mj-table>
+          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+          <p style="text-align:center;">
+            Sous-total : <strong>19,55 €</strong><br> 
+            Frais de port : <strong>0,00 €</strong><br> 
+            TVA : <strong>3,91 € </strong><br>
+            <span style="color:#36687E !important;"><strong>Montant global : 23,46 €</strong></span>
+            <p>
+          </mj-text>
+          <mj-button href="https://www.lemagasindubtp.com/" font-family="Roboto, Arial, sans-serif" background-color="#fff" font-size="16px"  color="#BDBDBD" font-weight="600" border="1px solid #00add5" border-radius="4px">
+            Acheter maintenant
           </mj-button>
         </mj-column>
       </mj-section>
@@ -64,47 +78,28 @@
             leMAGASINduBTP.com au cœur de vos besoins quotidiens !
           </mj-text>
         </mj-column>
-        <mj-column width="25%" vertical-align="middle"  padding="0">
-          <mj-image width="100px" src="sav.webp" padding="0" />
-          <mj-text align="center" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="13px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0">
-            SAV 100% garanti
-          </mj-text>
-        </mj-column>
-         <mj-column width="25%" vertical-align="middle"  padding="0">
-          <mj-image width="100px" src="client.webp" padding="0" />
-          <mj-text align="center" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="13px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0">
-            Service client 24/7
-          </mj-text>
-        </mj-column>
-         <mj-column width="25%" vertical-align="middle"  padding="0">
-          <mj-image width="100px" src="expedition.webp" padding="0" />
-          <mj-text align="center" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="13px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0">
-            Expédition rapide
-          </mj-text>
-        </mj-column>
-         <mj-column width="25%" vertical-align="middle"  padding="0">
-          <mj-image width="100px" src="satisfait.webp" padding="0" />
-          <mj-text align="center" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="13px" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0">
-            Satisfait ou remboursé
-          </mj-text>
+      </mj-section>
+       <mj-section background-color="#ffffff" padding-bottom="0" padding-top="20px" css-class="contact-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+        <mj-column width="100%" vertical-align="middle" padding="0" >
+          <mj-image width="560px" src="services.png" padding="0" />
         </mj-column>
       </mj-section>
 
       <!-- Paiement -->
-      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="40px" css-class="paiement-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-        <mj-column width="100%" vertical-align="middle"  padding="0">
+      <mj-section background-color="#ffffff" padding-bottom="0" padding-top="40px" css-class="contact-wrap" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
+        <mj-column width="20%" vertical-align="middle" padding="0" >
+            <mj-image width="90px" src="paiement.webp" padding="0" />
+        </mj-column>
+        <mj-column width="80%" vertical-align="middle"  padding="0" border-left="1px solid #E7E7E7">
           <mj-text align="left" color="#000" font-weight="400" line-height="21px" font-family="Roboto, Arial, sans-serif" font-size="15px" padding-left="20px" padding-right="20px" padding-bottom="0" padding-top="0" css-class="content-text"  padding="0">
-            <image width="90px" src="{{config path="web/secure/base_url"}}media/wysiwyg/email/paiement.png" padding="0" style="vertical-align: middle; display:inline-block;" />
-            <span style="vertical-align: middle; display:inline-block; width: 77%; border-left:1px solid #E7E7E7; padding-left: 20px;">
-              <p><strong>Trouvez le meilleur moyen de régler votre achat :</strong></p>
-              <p>Que vous préfériez un paiement par virement, en plusieurs fois ou via Paypal... Nous avons le moyen de paiement sécurisé qui vous convient !</p> 
-              <ul>
-                <li>Carte bancaire</li>
-                <li>Virement</li>
-                <li>Paypal</li>
-                <li>Alma : Payez jusqu’à 3 fois sans frais</li>
-              </ul>
-            </span>
+            <p><strong>Trouvez le meilleur moyen de régler votre achat :</strong></p>
+            <p>Que vous préfériez un paiement par virement, en plusieurs fois ou via Paypal... Nous avons le moyen de paiement sécurisé qui vous convient !</p> 
+            <ul>
+              <li>Carte bancaire</li>
+              <li>Virement</li>
+              <li>Paypal</li>
+              <li>Alma : Payez jusqu’à 3 fois sans frais</li>
+            </ul>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -136,8 +131,6 @@
 
       <mj-section background-color="#F3F3F3" padding-bottom="30px" padding-top="5px" >
         <mj-column width="100%" vertical-align="top" >
-          
-
            <mj-text align="center" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="14px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
             leMAGASINduBTP.com - Tél. 0 809 542 004 <br> 51 rue des Grands Mortiers - 37700 - Saint-Pierre-des-Corps<br> SIRET 538 882 531 00022 - N° TVA intracommunautaire : FR 15 538 882 531
           </mj-text>
