@@ -10,13 +10,13 @@
         .logo >td > table >tbody > tr > td { width:150px !important;}
         .intro-wrap div  {font-size: 14px !important; line-height: 20px !important; }
         .header-img > table > tbody > tr > td{ padding-bottom: 20px !important; padding-top: 20px !important; padding-bottom: 0!important;}
-        .content-title div{ font-size: 24px !important; line-height: 34px !important; }
-        .content-title {padding-left: 32px !important; padding-right: 32px !important; padding-bottom: 20px !important;}
+        h1{ font-size: 24px !important; line-height: 34px !important; padding-bottom: 20px !important;}
         .content-text {padding-left: 32px !important; padding-right: 32px !important; }
         .content-wrap > table > tbody > tr > td { padding-bottom: 0 !important; padding-top: 32px !important; }
         .content-wrap.content-text-info > table > tbody > tr > td { padding-top: 0 !important; padding-bottom: 32px !important;}
         .divider > table > tbody > tr > td{ padding-left: 8px !important; padding-right: 8px !important; padding-bottom: 15px !important; padding-top: 15px !important;}
-        p { margin:0 !important; }
+        p { margin-top :0 !important; }
+        
       }
     </mj-style>
   </mj-head>
@@ -34,36 +34,22 @@
       <!-- Content Text -->
       <mj-section background-color="#ffffff" padding-bottom="0" padding-top="50px" css-class="content-wrap">
         <mj-column width="100%" vertical-align="top">
-          <mj-text align="left" color="#000" font-weight="600" font-family="Roboto, Arial, sans-serif" font-size="34px" padding-left="50px" padding-right="50px"  padding-bottom="32px" padding-top="0" css-class="content-title">
-            Demande de devis
-          </mj-text>
-          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <!-- Divider -->
-      <mj-section background-color="#ffffff" padding-bottom="25px" padding-top="25px" padding-left="25px" padding-right="25px" css-class="divider" >
-        <mj-column>
-          <mj-divider border-width="1px" border-style="solid" border-color="#CCCCCC" />
-        </mj-column>
-      </mj-section>
-
-      <!-- Partners -->
-      <mj-section background-color="#ffffff" padding-bottom="50px" padding-top="0" css-class="content-wrap content-text-info">
-        <mj-column width="100%" vertical-align="top">
-          <mj-text align="left" color="#000" font-weight="600" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="12px" padding-top="0" css-class="content-text">
-            Informations du contact
-          </mj-text>
-          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <span style="color:#808080">Objet :</span> Demande de devis
-          </mj-text>
-          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <span style="color:#808080">Nom :</span> Jean Dupont
-          </mj-text>
-           <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="0" padding-top="0" css-class="content-text">
-            <span style="color:#808080">Email :</span> jean.dupont@kernix.com
+          <mj-text align="left" color="#000" font-weight="400" line-height="25px" font-family="Roboto, Arial, sans-serif" font-size="16px" padding-left="50px" padding-right="50px" padding-bottom="50px" padding-top="0" css-class="content-text">
+            <h1 style="color: #000; font-weight: 600; font-family: Roboto, Arial, sans-serif; font-size: 34px; padding-bottom: 32px; padding-top: 0; margin: 0;">Demande de contact</h1>
+            <h1 style="color: #000; font-weight: 600; font-family: Roboto, Arial, sans-serif; font-size: 34px; padding-bottom: 32px; padding-top: 0; margin: 0;">Réception de votre demande</h1>
+            <div>[user-contact-message]</div>
+            <div>Nous tenions à vous informer que nous avons bien reçu votre demande. <br><br> Nous vous fournirons une réponse dans les plus brefs délais. Si vous avez des questions supplémentaires, n'hésitez pas à nous contacter. <br><br> Cordialement,</div>
+          <div style="border-top: 1px solid #CCCCCC; width: 100%; margin: 25px 0;"></div>
+          <div style="background-color: #ffffff; padding: 0; margin: 0;">
+            <div style="width: 100%; vertical-align: top;">
+              <p style="color: #000; font-weight: 600; line-height: 25px; font-family: Roboto, Arial, sans-serif; font-size: 16px; padding: 0 0 12px 0; margin: 0;">Informations du contact / Récapitulatif de la demande </p>
+              <p style="color: #000; font-weight: 400; line-height: 25px; font-family: Roboto, Arial, sans-serif; font-size: 16px; padding: 0; margin: 0;"><span style="color: #808080;">Objet :</span> [user-contact-object]</p>
+              <div style="color: #000; font-weight: 400; line-height: 25px; font-family: Roboto, Arial, sans-serif; font-size: 16px; padding: 0; margin: 0;"><span style="color: #808080;">Message :</span> [user-contact-message]</div>
+              <p style="color: #000; font-weight: 400; line-height: 25px; font-family: Roboto, Arial, sans-serif; font-size: 16px; padding: 0; margin: 0;"><span style="color: #808080;">Nom :</span> [user-contact-last-name] [user-contact-first-name]</p>
+              <p style="color: #000; font-weight: 400; line-height: 25px; font-family: Roboto, Arial, sans-serif; font-size: 16px; padding: 0; margin: 0;"><span style="color: #808080;">Email :</span> [user-contact-mail]</p>
+              <p style="color: #000; font-weight: 400; line-height: 25px; font-family: Roboto, Arial, sans-serif; font-size: 16px; padding: 0; margin: 0;"><span style="color: #808080;">Consentement des données personnelles :</span> Accepté</p>
+            </div>
+          </div>
           </mj-text>
         </mj-column>
       </mj-section>
